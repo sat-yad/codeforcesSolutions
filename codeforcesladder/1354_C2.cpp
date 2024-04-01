@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define fl(w,x) for(ll i=w;i<x;i++)
+#define fast   ios_base::sync_with_stdio(0);cin.tie(0);cin.tie(nullptr); cout.tie(nullptr);
+#define nl cout<<"\n";
+#define onjudge  #ifndef ONLINE_JUDGE freopen("./input.txt", "r", stdin); freopen("./output.txt", "w", stdout);#endif
+#define pi 3.14159265359
+void solve() {
+   int n;cin>>n;n*=2;
+   cout<<fixed<<setprecision(9)<<1/sqrt((2-2*cos(pi/n)));nl;
+}
+int main(){
+    fast;
+ll t;
+cin>>t;
+while(t--){
+ solve();
+}
+}

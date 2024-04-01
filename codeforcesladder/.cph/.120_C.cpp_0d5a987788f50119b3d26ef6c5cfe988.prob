@@ -1,0 +1,1 @@
+{"name":"Local: 120_C","url":"c:\\Users\\Asus\\codeforcespractice\\codeforcesladder\\120_C.cpp","tests":[{"id":1677431251803,"input":"3 3\n15 8 10\n","output":"9"},{"id":1677431610782,"input":"1 3\n3","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Asus\\codeforcespractice\\codeforcesladder\\120_C.cpp","group":"local","local":true}

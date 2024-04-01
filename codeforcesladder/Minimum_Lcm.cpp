@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define fl(w,x) for(ll i=w;i<x;i++)
+#define fast   ios_base::sync_with_stdio(0);cin.tie(0);cin.tie(nullptr); cout.tie(nullptr);
+#define nl cout<<"\n";
+#define onjudge  #ifndef ONLINE_JUDGE freopen("./input.txt", "r", stdin); freopen("./output.txt", "w", stdout);#endif
+void solve() {
+   ll n;
+   cin>>n;
+   ll x=1;
+   for(ll i=2;i*i<=n;i++){
+    if(n%i==0){
+        x=n/i;
+        break;
+    }
+   }
+   cout<<n-x<<" "<<x<<endl;
+}
+int main(){
+    fast;
+ll t;
+cin>>t;
+while(t--){
+ solve();
+}
+}

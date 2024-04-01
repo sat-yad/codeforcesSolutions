@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define fl(w,x) for(ll i=w;i<x;i++)
+#define fast   ios_base::sync_with_stdio(0);cin.tie(0);cin.tie(nullptr); cout.tie(nullptr);
+#define nl cout<<"\n";
+#define onjudge  #ifndef ONLINE_JUDGE freopen("./input.txt", "r", stdin); freopen("./output.txt", "w", stdout);#endif
+void solve() {
+int p[4],a,b;
+cin>>p[0]>>p[1]>>p[2]>>p[3]>>a>>b;
+sort(p,p+4);
+   if(p[0] <= a) cout << "0\n";
+   else {
+       if(p[0]>b){cout<<b-a+1;nl;}
+       else if(p[0] == b){cout<<b-a;nl;}
+       else {cout << p[0]-a << '\n';}
+   }
+}
+int main(){
+    fast;
+ solve();
+}
